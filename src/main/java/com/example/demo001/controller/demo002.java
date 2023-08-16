@@ -33,6 +33,9 @@ public class demo002 {
     @ResponseBody
     public String hello(@RequestParam(name = "name",defaultValue = "unknown user") String name) {
         System.out.println("hell");
+
+        // gongneng
+
         System.out.println("");
         return "Hello " + name;
     }
